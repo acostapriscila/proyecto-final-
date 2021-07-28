@@ -1,0 +1,43 @@
+.carritoo input:focus{
+	box-shadow: none;
+	border-color: $texto-secuandario;
+	color: $primario;
+}
+.carritoo select:focus{
+	box-shadow: none;
+	border-color: $texto-secuandario;
+	color: $primario;
+}
+.custom-control-input input[type="radio"]{
+	height: 15px;
+	width: 15px;
+	background-color: #d5d5d5;
+	border-radius: 5px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.custom-control-input input[type="radio"]:after{
+	font-family: "font awesome 5 free";
+	font-weight: 900;
+	content: "\f192";
+	font-size: 15px;
+	color: $teciario;
+	display: none;
+
+}
+.custom-control-input input[type="radio"]:hover{
+	background-color: #a5a5a5;
+}
+.custom-control-input input[type="radio"]:checked{
+	background-color: $texto-secuandario;
+}
+.custom-control-input input[type="radio"]:checked:after{
+	display: block;
+
+}
+.tamaño{
+	font-size: 1.5 rem;
+}

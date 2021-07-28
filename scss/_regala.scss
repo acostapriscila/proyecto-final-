@@ -1,0 +1,29 @@
+.regal{
+	font-family: $fuente;
+	font-weight: $fuente-semi-bold;
+	font-style: normal;
+	font-size: 2.5rem;
+	text-align: center;
+}
+.estilo{
+	font-family: $fuente;
+	font-weight: $fuente-regular;
+	font-style: normal;
+	font-size: 1.625rem;
+}
+.card{
+	max-width: 600px;
+	max-height: 400px;
+	padding: 10px;
+	margin: 10px;
+}
+.tab{
+	font-family: $fuente2;
+	font-weight: $fuente-semi-bold;
+	font-size: 1.625rem; 
+	text-align: center;
+}
+.card-text{
+	color: $fondo-terciario;
+	font-size: 1.5rem;
+}
