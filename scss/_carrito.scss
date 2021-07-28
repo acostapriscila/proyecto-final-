@@ -38,6 +38,9 @@
 	display: block;
 
 }
-.tamaño{
+.tamaño{.
+	font-family: $fuente;
+	font-weight: $fuente-semi-bold;
 	font-size: 1.5 rem;
+	color: $primario;
 }
