@@ -24,26 +24,26 @@ button{
 }
 .categorias{
 	font-family: $fuente;
-	font-size: 1.375rem;
+	font-size: 1.875rem;
 	text-align: center;
 }
-@media (min-width: 576px){
+@media (max-width: 576px){
 	.categorias{
 		font-family: $fuente;
-		font-size: 1.875rem;
+		font-size: 1.375rem;
 		text-align: center;
 	}
 }
 .destacados{
 	font-family: $fuente;
-	font-size: 1.375rem;
+	font-size: 1.875rem;
 	text-align: center;
 	color: $primario;
 }
-@media (min-width: 576px){
+@media (max-width: 576px){
 	.destacados{
 		font-family: $fuente;
-		font-size: 1.875rem;
+		font-size: 1.375rem;
 		text-align: center;
 		color: $texto-secuandario;
 	}
