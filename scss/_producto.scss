@@ -76,6 +76,13 @@
 }
 .prod{
 	font-family: $fuente;
-	font-size: 2rem;
+	font-size: 1.5rem;
 	color: $primario;
+}
+@media (min-width: 576px){
+	.prod{
+		font-family: $fuente;
+		font-size: 2rem;
+		color: $primario;
+	}
 }
