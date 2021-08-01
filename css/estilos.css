@@ -102,6 +102,12 @@ button {
   text-align: left;
 }
 
+.form-group input:focus {
+  box-shadow: none;
+  border-color: fuchsia;
+  color: black;
+}
+
 .modalDialog {
   position: fixed;
   font-family: "Baloo Tammudu 2", cursive;
@@ -131,6 +137,11 @@ button {
   background: -o-linear-gradient(#fff, #999);
 }
 
+@media (max-width: 576px) {
+  .modalDialog > div {
+    width: 200px;
+  }
+}
 .closes {
   background: fuchsia;
   color: #fff;
@@ -149,14 +160,6 @@ button {
 .closes:hover {
   background: grey;
   color: black;
-}
-
-.icons {
-  background-color: black;
-  border-top-color: white;
-  color: beige;
-  font-size: 1rem;
-  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .btn-whatsapp {
