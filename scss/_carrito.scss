@@ -11,7 +11,7 @@
 .custom-control-input input[type="radio"]{
 	height: 15px;
 	width: 15px;
-	background-color: #d5d5d5;
+	background-color: $colorcarrito1;
 	border-radius: 5px;
 	cursor: pointer;
 	display: flex;
@@ -29,7 +29,7 @@
 
 }
 .custom-control-input input[type="radio"]:hover{
-	background-color: #a5a5a5;
+	background-color: $colorcarrito2;
 }
 .custom-control-input input[type="radio"]:checked{
 	background-color: $texto-secuandario;

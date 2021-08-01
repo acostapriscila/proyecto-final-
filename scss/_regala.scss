@@ -2,7 +2,7 @@
 	font-family: $fuente;
 	font-weight: $fuente-semi-bold;
 	font-style: normal;
-	font-size: 1.5rem;
+	font-size: 1.375rem;
 	text-align: center;
 }
 @media (min-width: 576px){
@@ -19,7 +19,7 @@
 	font-family: $fuente;
 	font-weight: $fuente-regular;
 	font-style: normal;
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 }
 @media (min-width: 576px){
 	.estilo{
@@ -30,18 +30,40 @@
 	}
 }
 .card{
-	max-width: 600px;
-	max-height: 400px;
+	max-width: 400px;
+	max-height: 300px;
 	padding: 10px;
 	margin: 10px;
+}
+@media (min-width: 576px){
+	.card{
+		max-width: 600px;
+		max-height: 400px;
+		padding: 10px;
+		margin: 10px;
+	}
 }
 .tab{
 	font-family: $fuente2;
 	font-weight: $fuente-semi-bold;
-	font-size: 1.625rem; 
+	font-size: 1.25rem; 
 	text-align: center;
+}
+@media (min-width: 576px){
+	.tab{
+		font-family: $fuente2;
+		font-weight: $fuente-semi-bold;
+		font-size: 1.625rem; 
+		text-align: center;
+	}
 }
 .card-text{
 	color: $fondo-terciario;
-	font-size: 1.5rem;
+	font-size: 1.25rem;
+}
+@media (min-width: 576px){
+	.card-text{
+		color: $fondo-terciario;
+		font-size: 1.5rem;
+	}
 }

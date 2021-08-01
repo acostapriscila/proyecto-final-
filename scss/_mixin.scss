@@ -25,3 +25,31 @@
         background-color: $fondo-terciario;
     }
 }
+@mixin boton2 {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: $colorboton;
+    text-shadow: 1px 1px 1px $primario;
+    border-radius: 10px;
+    background-color: $primario;
+    background-image: linear-gradient(to top left,
+                                        $colorbotonrosa,
+                                        $colorbotonrosa 30%,
+                                        $colorboton3);
+    box-shadow: inset 2px 2px 3px $colorboton4,
+                inset -2px -2px 3px $colorboton5;
+}
+.boton2 {
+    @include boton2 {
+        &:active {
+            box-shadow: inset -2px -2px 3px $colorboton4,
+                inset 2px 2px 3px $colorboton5;
+        }
+        &:hover {
+            background-color: $fondo-terciario;
+        }
+    }
+}
