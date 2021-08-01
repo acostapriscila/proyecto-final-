@@ -85,6 +85,11 @@ button{
 	width: 100%;
 	text-align: left;
 }
+.form-group input:focus{
+	box-shadow: none;
+	border-color: $texto-secuandario;
+	color: $primario;
+}
 .modalDialog {
     position: fixed;
     font-family: $fuente;
@@ -115,6 +120,11 @@ button{
     background: -webkit-linear-gradient($colorboton, $colorbotone);
     background: -o-linear-gradient($colorboton, $colorbotone);
 }
+@media (max-width: 576px){
+    .modalDialog > div {
+        width: 200px;
+    }
+}
 .closes {
     background: $texto-secuandario;
     color: $colorboton;
@@ -136,14 +146,6 @@ button{
 .closes:hover { 
     background: $fondo-terciario; 
     color: $primario;
-}
-.icons{
-	background-color: $fondo;
-	border-top-color: $teciario;
-	color:$fondo-secuandario;
-	font-size: 1rem;
-	font-family: $fuente;
-
 }
 .btn-whatsapp {
     display:block;
