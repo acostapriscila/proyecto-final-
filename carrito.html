@@ -102,26 +102,15 @@
             <form class="card p-2">
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="codigo de descuento">
-                <div class="input-group-append">
-                  <button class="favorite boton" type="button" data-toggle="modal" data-target="#exampleModal">Aplicar</button> 
-                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                      <div class="modal-content">
-                        <div class="modal-header">
-                          <p class="modal-title" id="exampleModalLabel">Bienvenido a FUROR</p>
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                          </button>
-                        </div>
-                        <div class="modal-body">
-                          Código aplicado!! 
-                        </div>
-                        <div class="modal-footer">
-                          <button type="button" class="favorite boton" data-dismiss="modal">Cerrar</button>
-                        </div>
-                      </div>
-                    </div>
-                  </div> 
+                <div class="input-group-append"> 
+                  <a href="#openModal1"><button class="favorite boton" type="button">Aplicar</button></a>
+                  <div id="openModal1" class="modalDialog">
+                  <div>
+                    <a href="#close" title="Close" class="close">X</a>
+                    <div><strong>Bienvenido a FUROR</strong></div>
+                    <p>Código aplicado </p>
+                  </div>
+                  </div>
                 </div>
               </div>
             </form>
