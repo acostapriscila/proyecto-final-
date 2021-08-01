@@ -46,7 +46,7 @@
     @include boton2 {
         &:active {
             box-shadow: inset -2px -2px 3px $colorboton4,
-                inset 2px 2px 3px $colorboton5;
+                        inset 2px 2px 3px $colorboton5,
         }
         &:hover {
             background-color: $fondo-terciario;
