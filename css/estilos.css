@@ -139,7 +139,7 @@ button {
 
 @media (max-width: 576px) {
   .modalDialog > div {
-    width: 200px;
+    width: 300px;
   }
 }
 .closes {
@@ -160,6 +160,14 @@ button {
 .closes:hover {
   background: grey;
   color: black;
+}
+
+.icons {
+  background-color: black;
+  border-top-color: white;
+  color: beige;
+  font-size: 1rem;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 .btn-whatsapp {
@@ -336,8 +344,8 @@ button {
   }
 }
 .card {
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 500px;
+  max-height: 400px;
   padding: 10px;
   margin: 10px;
 }

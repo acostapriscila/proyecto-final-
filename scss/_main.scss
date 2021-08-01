@@ -122,7 +122,7 @@ button{
 }
 @media (max-width: 576px){
     .modalDialog > div {
-        width: 200px;
+        width: 300px;
     }
 }
 .closes {
@@ -146,6 +146,14 @@ button{
 .closes:hover { 
     background: $fondo-terciario; 
     color: $primario;
+}
+.icons{
+	background-color: $primario;
+	border-top-color: $teciario;
+	color:$fondo-secuandario;
+	font-size: 1rem;
+	font-family: $fuente;
+
 }
 .btn-whatsapp {
     display:block;
